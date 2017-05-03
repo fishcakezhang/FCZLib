@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D7A55E958958BF8204B50FEB93C48F /* Pods-FCZLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D57796AF09E6FC76C4431FA06428724 /* Pods-FCZLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59864D86044718B028D1CF1020246AAE /* Pods-FCZLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94144E92A3480331995931F7CAC87223 /* Pods-FCZLib_Tests-dummy.m */; };
+		5DD104915537A6602D1867E59234DB26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6721CBD31EB9D6CB00FC2738 /* UIButton+Vertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 6721CBD11EB9D6CB00FC2738 /* UIButton+Vertical.h */; };
+		6721CBD41EB9D6CB00FC2738 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */; };
+		8B05ABB54B22F549569A5D6E9E88BD85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9F2BCA4C34A026C66988C11122D0D4CC /* Pods-FCZLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3388F8F3162E10E8356D39034B8289CD /* Pods-FCZLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD7ED569D06F82B2F24B57038BF9ECCF /* FCZLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287E63F05474161D45480642A4B94FE6 /* FCZLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39C82EFB305654B106594347682E2B3 /* Pods-FCZLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C112115E7DC845CCF585DCA90A454E2 /* Pods-FCZLib_Example-dummy.m */; };
+		CC2F8104817DEC98842FD014CDE27833 /* FCZLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1CD4B63479B93990367AAEF880A63 /* FCZLib-dummy.m */; };
+		DD0BD479B8398ABFB135F27381B139A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E2D1F52F552410E9A6ECEDCB43C841ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8B46704485F3EC4BCFD10F07997166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22A8DB63F8D8602DCF2D2D8DC091430;
+			remoteInfo = FCZLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06328B7E07E9012FBEF55F68B9C8E7EE /* Pods-FCZLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FCZLib_Tests.modulemap"; sourceTree = "<group>"; };
+		0AF43656287AE7B009AB24A5CA7112F9 /* Pods-FCZLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCZLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		287E63F05474161D45480642A4B94FE6 /* FCZLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCZLib-umbrella.h"; sourceTree = "<group>"; };
+		3388F8F3162E10E8356D39034B8289CD /* Pods-FCZLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCZLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4940EEF02E6150B041DAB12E326AEC15 /* Pods-FCZLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCZLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6721CBD11EB9D6CB00FC2738 /* UIButton+Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Vertical.h"; sourceTree = "<group>"; };
+		6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Vertical.m"; sourceTree = "<group>"; };
+		682FB318D767EA56059BCD3EB234D3EE /* FCZLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FCZLib.modulemap; sourceTree = "<group>"; };
+		6AE3A208134D71D20CAA78E7382E073E /* Pods_FCZLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCZLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C112115E7DC845CCF585DCA90A454E2 /* Pods-FCZLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCZLib_Example-dummy.m"; sourceTree = "<group>"; };
+		7028F00286344D96EFE8545353C865BF /* Pods-FCZLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCZLib_Example-resources.sh"; sourceTree = "<group>"; };
+		76F521C59AA4FDF9812D21184E87FC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7F44450756142D5241D8233BC0A51796 /* FCZLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCZLib-prefix.pch"; sourceTree = "<group>"; };
+		80C3998762713A8978FB5D8E5C39FD37 /* FCZLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCZLib.xcconfig; sourceTree = "<group>"; };
+		80CA979934E0BB2170DBF3AF9CC303F8 /* FCZLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCZLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5A4F0B62CFE5224E37E92C4FADBD85 /* Pods-FCZLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCZLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8AE1CD4B63479B93990367AAEF880A63 /* FCZLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCZLib-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94144E92A3480331995931F7CAC87223 /* Pods-FCZLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCZLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D57796AF09E6FC76C4431FA06428724 /* Pods-FCZLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCZLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		A5A9F8C121C86CE2824F91D6AD163DF4 /* Pods-FCZLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FCZLib_Example.modulemap"; sourceTree = "<group>"; };
+		ACCEBB126F4E7D0F098D989F1E86EA15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFFF9191EFAE9031E49733629EC977E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF94C489B831EE08CE6ED794905ACB95 /* Pods-FCZLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCZLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0377249EF70AD5B325F39E998152C2F /* Pods-FCZLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCZLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D16F31EE738F641280C8FE8C9D4F42BB /* Pods-FCZLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCZLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7D1731F6E683CA81B466B08650044F9 /* Pods-FCZLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCZLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9B5356005797F38DECCDA962AF433B2 /* Pods-FCZLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCZLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E0AFC8465CBAB010E6E2C583AC59D21E /* Pods-FCZLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCZLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E6A97D0DA1C905E21F91D830A6AE0E8E /* Pods-FCZLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCZLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		E78BE5E46F3C5B41CDF7940E1BE76A3A /* Pods-FCZLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCZLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE22EAACC6D13823869ECB67122EB35 /* Pods_FCZLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCZLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854FC414EAE34FD6614C9B9B38CB377A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD104915537A6602D1867E59234DB26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA64D8BAADF68A57CA7B031F9DCC26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0BD479B8398ABFB135F27381B139A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C5337505B4B05C2F54BDD7F76228E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B05ABB54B22F549569A5D6E9E88BD85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DD37F0D23A0B05284AB359C5E8AC6E /* FCZLib */ = {
+			isa = PBXGroup;
+			children = (
+				72AEEAEA701D8FE3A00254232AD74EEC /* FCZLib */,
+				B54519A702D5CDEC85EE17F6013007AD /* Support Files */,
+			);
+			name = FCZLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3FC13D86FA86F0888F929B97F14AF2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CA979934E0BB2170DBF3AF9CC303F8 /* FCZLib.framework */,
+				EBE22EAACC6D13823869ECB67122EB35 /* Pods_FCZLib_Example.framework */,
+				6AE3A208134D71D20CAA78E7382E073E /* Pods_FCZLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639EF16220570FDE75C6662B965623C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3365020FB2208FD4E30E3B36903A478 /* Pods-FCZLib_Example */,
+				CDE3C930266F6BA9A02C9720A53D4003 /* Pods-FCZLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66226609963BEA5F2984B82327A47783 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6721CBD11EB9D6CB00FC2738 /* UIButton+Vertical.h */,
+				6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */,
+				7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		72AEEAEA701D8FE3A00254232AD74EEC /* FCZLib */ = {
+			isa = PBXGroup;
+			children = (
+				66226609963BEA5F2984B82327A47783 /* Classes */,
+			);
+			path = FCZLib;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FA531C01390C0FBAB23288DB3502DB4C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3FC13D86FA86F0888F929B97F14AF2BC /* Products */,
+				639EF16220570FDE75C6662B965623C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3365020FB2208FD4E30E3B36903A478 /* Pods-FCZLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFF9191EFAE9031E49733629EC977E /* Info.plist */,
+				A5A9F8C121C86CE2824F91D6AD163DF4 /* Pods-FCZLib_Example.modulemap */,
+				4940EEF02E6150B041DAB12E326AEC15 /* Pods-FCZLib_Example-acknowledgements.markdown */,
+				D7D1731F6E683CA81B466B08650044F9 /* Pods-FCZLib_Example-acknowledgements.plist */,
+				6C112115E7DC845CCF585DCA90A454E2 /* Pods-FCZLib_Example-dummy.m */,
+				E0AFC8465CBAB010E6E2C583AC59D21E /* Pods-FCZLib_Example-frameworks.sh */,
+				7028F00286344D96EFE8545353C865BF /* Pods-FCZLib_Example-resources.sh */,
+				9D57796AF09E6FC76C4431FA06428724 /* Pods-FCZLib_Example-umbrella.h */,
+				E78BE5E46F3C5B41CDF7940E1BE76A3A /* Pods-FCZLib_Example.debug.xcconfig */,
+				8A5A4F0B62CFE5224E37E92C4FADBD85 /* Pods-FCZLib_Example.release.xcconfig */,
+			);
+			name = "Pods-FCZLib_Example";
+			path = "Target Support Files/Pods-FCZLib_Example";
+			sourceTree = "<group>";
+		};
+		B54519A702D5CDEC85EE17F6013007AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				682FB318D767EA56059BCD3EB234D3EE /* FCZLib.modulemap */,
+				80C3998762713A8978FB5D8E5C39FD37 /* FCZLib.xcconfig */,
+				8AE1CD4B63479B93990367AAEF880A63 /* FCZLib-dummy.m */,
+				7F44450756142D5241D8233BC0A51796 /* FCZLib-prefix.pch */,
+				287E63F05474161D45480642A4B94FE6 /* FCZLib-umbrella.h */,
+				76F521C59AA4FDF9812D21184E87FC10 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FCZLib";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE3C930266F6BA9A02C9720A53D4003 /* Pods-FCZLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEBB126F4E7D0F098D989F1E86EA15 /* Info.plist */,
+				06328B7E07E9012FBEF55F68B9C8E7EE /* Pods-FCZLib_Tests.modulemap */,
+				D16F31EE738F641280C8FE8C9D4F42BB /* Pods-FCZLib_Tests-acknowledgements.markdown */,
+				0AF43656287AE7B009AB24A5CA7112F9 /* Pods-FCZLib_Tests-acknowledgements.plist */,
+				94144E92A3480331995931F7CAC87223 /* Pods-FCZLib_Tests-dummy.m */,
+				D9B5356005797F38DECCDA962AF433B2 /* Pods-FCZLib_Tests-frameworks.sh */,
+				E6A97D0DA1C905E21F91D830A6AE0E8E /* Pods-FCZLib_Tests-resources.sh */,
+				3388F8F3162E10E8356D39034B8289CD /* Pods-FCZLib_Tests-umbrella.h */,
+				C0377249EF70AD5B325F39E998152C2F /* Pods-FCZLib_Tests.debug.xcconfig */,
+				BF94C489B831EE08CE6ED794905ACB95 /* Pods-FCZLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-FCZLib_Tests";
+			path = "Target Support Files/Pods-FCZLib_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA531C01390C0FBAB23288DB3502DB4C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16DD37F0D23A0B05284AB359C5E8AC6E /* FCZLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1957381B66787BF3D361B40EA811DCFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2BCA4C34A026C66988C11122D0D4CC /* Pods-FCZLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C441BC92D397FA1A22EBC0F2AE2667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6721CBD31EB9D6CB00FC2738 /* UIButton+Vertical.h in Headers */,
+				AD7ED569D06F82B2F24B57038BF9ECCF /* FCZLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BC08522F28B25BB18E2FEAA0238B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D7A55E958958BF8204B50FEB93C48F /* Pods-FCZLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03EE38C60E8B7C01D29189FFD7912E44 /* Pods-FCZLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65C9F4DF9A9BF66157002320C02C2AA /* Build configuration list for PBXNativeTarget "Pods-FCZLib_Tests" */;
+			buildPhases = (
+				3EA5627E300188117F6512AEB5984B36 /* Sources */,
+				BBA64D8BAADF68A57CA7B031F9DCC26B /* Frameworks */,
+				1957381B66787BF3D361B40EA811DCFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FCZLib_Tests";
+			productName = "Pods-FCZLib_Tests";
+			productReference = 6AE3A208134D71D20CAA78E7382E073E /* Pods_FCZLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		444E6F6ACA21E238D662B32D5DBE4B24 /* Pods-FCZLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F11E434AFDA79C6C1E12EB9F8AA85F /* Build configuration list for PBXNativeTarget "Pods-FCZLib_Example" */;
+			buildPhases = (
+				7C69F47728686DBF6C8F8652B07A89C1 /* Sources */,
+				854FC414EAE34FD6614C9B9B38CB377A /* Frameworks */,
+				B379BC08522F28B25BB18E2FEAA0238B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67238EB1D19B37C9EC3F06C75F04A0BC /* PBXTargetDependency */,
+			);
+			name = "Pods-FCZLib_Example";
+			productName = "Pods-FCZLib_Example";
+			productReference = EBE22EAACC6D13823869ECB67122EB35 /* Pods_FCZLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22A8DB63F8D8602DCF2D2D8DC091430 /* FCZLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10345C1CE46283F0EF2507D6480F62A /* Build configuration list for PBXNativeTarget "FCZLib" */;
+			buildPhases = (
+				E099C90EF6DC8C6D97B068AB7ECAFF5A /* Sources */,
+				C0C5337505B4B05C2F54BDD7F76228E5 /* Frameworks */,
+				85C441BC92D397FA1A22EBC0F2AE2667 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCZLib;
+			productName = FCZLib;
+			productReference = 80CA979934E0BB2170DBF3AF9CC303F8 /* FCZLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3FC13D86FA86F0888F929B97F14AF2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22A8DB63F8D8602DCF2D2D8DC091430 /* FCZLib */,
+				444E6F6ACA21E238D662B32D5DBE4B24 /* Pods-FCZLib_Example */,
+				03EE38C60E8B7C01D29189FFD7912E44 /* Pods-FCZLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA5627E300188117F6512AEB5984B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59864D86044718B028D1CF1020246AAE /* Pods-FCZLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C69F47728686DBF6C8F8652B07A89C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39C82EFB305654B106594347682E2B3 /* Pods-FCZLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E099C90EF6DC8C6D97B068AB7ECAFF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2F8104817DEC98842FD014CDE27833 /* FCZLib-dummy.m in Sources */,
+				E2D1F52F552410E9A6ECEDCB43C841ED /* ReplaceMe.m in Sources */,
+				6721CBD41EB9D6CB00FC2738 /* UIButton+Vertical.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67238EB1D19B37C9EC3F06C75F04A0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCZLib;
+			target = B22A8DB63F8D8602DCF2D2D8DC091430 /* FCZLib */;
+			targetProxy = 7E8B46704485F3EC4BCFD10F07997166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		066C7567C0D682FB0373C43DFDC36E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF94C489B831EE08CE6ED794905ACB95 /* Pods-FCZLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FCZLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCZLib_Tests/Pods-FCZLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCZLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4544A0AAD0D809504081DFAB36EA4C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C3998762713A8978FB5D8E5C39FD37 /* FCZLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCZLib/FCZLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCZLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCZLib/FCZLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FCZLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C5A96284964B0CD661F1230FCF52E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78BE5E46F3C5B41CDF7940E1BE76A3A /* Pods-FCZLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FCZLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCZLib_Example/Pods-FCZLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCZLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D97C559CFACA8AB5F1F6CEFF6A9420A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5A4F0B62CFE5224E37E92C4FADBD85 /* Pods-FCZLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FCZLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCZLib_Example/Pods-FCZLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCZLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7925E553F40F5C2BE3FD53EBD07D3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C3998762713A8978FB5D8E5C39FD37 /* FCZLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCZLib/FCZLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCZLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCZLib/FCZLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FCZLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F95694A0C3C822E200C03C12DB84FDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0377249EF70AD5B325F39E998152C2F /* Pods-FCZLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FCZLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCZLib_Tests/Pods-FCZLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCZLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F11E434AFDA79C6C1E12EB9F8AA85F /* Build configuration list for PBXNativeTarget "Pods-FCZLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C5A96284964B0CD661F1230FCF52E0 /* Debug */,
+				D97C559CFACA8AB5F1F6CEFF6A9420A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65C9F4DF9A9BF66157002320C02C2AA /* Build configuration list for PBXNativeTarget "Pods-FCZLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95694A0C3C822E200C03C12DB84FDA5 /* Debug */,
+				066C7567C0D682FB0373C43DFDC36E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10345C1CE46283F0EF2507D6480F62A /* Build configuration list for PBXNativeTarget "FCZLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4544A0AAD0D809504081DFAB36EA4C80 /* Debug */,
+				F7925E553F40F5C2BE3FD53EBD07D3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FCZLib (0.1.0)
+
+DEPENDENCIES:
+  - FCZLib (from `../`)
+
+EXTERNAL SOURCES:
+  FCZLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FCZLib: 021c843e81656fe64e314a594a96df1f9892e1d1
+
+PODFILE CHECKSUM: 55758bc4ba1ededdb24360deb950c0e9c4ee2eb3
+
+COCOAPODS: 1.2.1

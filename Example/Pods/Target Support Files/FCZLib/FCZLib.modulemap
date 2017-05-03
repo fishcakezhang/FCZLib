@@ -1,0 +1,6 @@
+framework module FCZLib {
+  umbrella header "FCZLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FCZLib_Example {
+  umbrella header "Pods-FCZLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
