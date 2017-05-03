@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FCZLib_Example' do
+  pod 'FCZLib', :path => '../'
+
+  target 'FCZLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
