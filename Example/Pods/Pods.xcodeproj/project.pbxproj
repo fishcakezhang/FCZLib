@@ -12,14 +12,12 @@
 		5DD104915537A6602D1867E59234DB26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6721CBD31EB9D6CB00FC2738 /* UIButton+Vertical.h in Headers */ = {isa = PBXBuildFile; fileRef = 6721CBD11EB9D6CB00FC2738 /* UIButton+Vertical.h */; };
 		6721CBD41EB9D6CB00FC2738 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = 6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */; };
-		676B69DC1EBACEB500DC62DF /* UIButton+Vertical.m in Headers */ = {isa = PBXBuildFile; fileRef = 6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */; settings = {ATTRIBUTES = (Private, ); }; };
 		8B05ABB54B22F549569A5D6E9E88BD85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9F2BCA4C34A026C66988C11122D0D4CC /* Pods-FCZLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3388F8F3162E10E8356D39034B8289CD /* Pods-FCZLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD7ED569D06F82B2F24B57038BF9ECCF /* FCZLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287E63F05474161D45480642A4B94FE6 /* FCZLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B39C82EFB305654B106594347682E2B3 /* Pods-FCZLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C112115E7DC845CCF585DCA90A454E2 /* Pods-FCZLib_Example-dummy.m */; };
 		CC2F8104817DEC98842FD014CDE27833 /* FCZLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE1CD4B63479B93990367AAEF880A63 /* FCZLib-dummy.m */; };
 		DD0BD479B8398ABFB135F27381B139A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E2D1F52F552410E9A6ECEDCB43C841ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +44,6 @@
 		6C112115E7DC845CCF585DCA90A454E2 /* Pods-FCZLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCZLib_Example-dummy.m"; sourceTree = "<group>"; };
 		7028F00286344D96EFE8545353C865BF /* Pods-FCZLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCZLib_Example-resources.sh"; sourceTree = "<group>"; };
 		76F521C59AA4FDF9812D21184E87FC10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		7F44450756142D5241D8233BC0A51796 /* FCZLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCZLib-prefix.pch"; sourceTree = "<group>"; };
 		80C3998762713A8978FB5D8E5C39FD37 /* FCZLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCZLib.xcconfig; sourceTree = "<group>"; };
 		80CA979934E0BB2170DBF3AF9CC303F8 /* FCZLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCZLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +128,6 @@
 			children = (
 				6721CBD11EB9D6CB00FC2738 /* UIButton+Vertical.h */,
 				6721CBD21EB9D6CB00FC2738 /* UIButton+Vertical.m */,
-				7D4C84989A8AFC186B92233A10A91891 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -245,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6721CBD31EB9D6CB00FC2738 /* UIButton+Vertical.h in Headers */,
-				676B69DC1EBACEB500DC62DF /* UIButton+Vertical.m in Headers */,
 				AD7ED569D06F82B2F24B57038BF9ECCF /* FCZLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2F8104817DEC98842FD014CDE27833 /* FCZLib-dummy.m in Sources */,
-				E2D1F52F552410E9A6ECEDCB43C841ED /* ReplaceMe.m in Sources */,
 				6721CBD41EB9D6CB00FC2738 /* UIButton+Vertical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
