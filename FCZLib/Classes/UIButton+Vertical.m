@@ -42,5 +42,7 @@
     
     [self setTitleEdgeInsets:titleEdge];
     
+    NSLog(@"UIButton+Vertical测试");
+    
 }
 @end
